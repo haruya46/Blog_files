@@ -12,7 +12,7 @@
         padding:2px 5px 2px 10px;
     }
     main{
-        margin:0 15%;
+        margin:0 5px;
     }
     .pickup{
         display: block;
@@ -32,7 +32,7 @@
     }
     .footer{
         display: block;
-        margin:0 10%;
+        margin:0 5px;
     }
     .About,menu{
         width: 100%;
@@ -40,6 +40,12 @@
     }
     .twitter{
         margin:50px 0;
+    }
+    .menu ul{
+        width: 100%;
+    }
+    .menu{
+        width: 100%;
     }
 
 }
