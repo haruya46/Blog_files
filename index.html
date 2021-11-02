@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel Blog</title>
     <link href="style.css" rel="stylesheet">
+    <link href="res.css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -25,24 +26,150 @@
         </div>
     </header>
     <main>
-        <div class="main-top">
-                <article>
+        <div class="pickup">
+                <article class="pickup-article">
                     <a href="index.html"><img src="photo/pickup1.jpg" alt="pickup1"></a>
                     <h1>タイトル</h1>
                     <p><a href="index.html">READ MORE</a></p>
                 </article>
-                <article>
+                <article class="pickup-article">
                     <a href="index.html"><img src="photo/pickup2.jpg" alt="pickup2"></a>
                     <h1>タイトル</h1>
                     <p><a href="index.html">READ MORE</a></p>
                 </article>
-                <article>
+                <article class="pickup-article">
                     <a href="index.html"><img src="photo/pickup3.jpg" alt="pickup3"></a>
                     <h1>タイトル</h1>
                     <p><a href="index.html">READ MORE</a></p>
                 </article>
         </div>
+        <div class="main-top">
+            <div class="main-content">
+                <article class="main-content-article">
+                    <h1>タイトルテキストテキスト</h1>
+                    <div class="date">
+                        <p>2020/01/01</p>
+                        <p>カテゴリ１</p>
+                    </div>
+                    <img src="photo/main1.jpg" alt="main1">
+                    <p>本文テキストテキストテキストテキスト</p>
+                    <div class="main-content-link">
+                        <p><a href="index.html">READ MORE</a></p>
+                    </div>
+                </article>
+
+                <article class="main-content-article">
+                    <h1>タイトルテキストテキスト</h1>
+                    <div class="date">
+                        <p>2020/01/01</p>
+                        <p>カテゴリ１</p>
+                    </div>
+                    <img src="photo/main2.jpg" alt="main1">
+                    <p>本文テキストテキストテキストテキスト</p>
+                    <div class="main-content-link">
+                        <p><a href="index.html">READ MORE</a></p>
+                    </div>
+                </article>
+
+                <article class="main-content-article">
+                    <h1>タイトルテキストテキスト</h1>
+                    <div class="date">
+                        <p>2020/01/01</p>
+                        <p>カテゴリ１</p>
+                    </div>
+                    <img src="photo/main3.jpg" alt="main1">
+                    <p>本文テキストテキストテキストテキスト</p>
+                    <div class="main-content-link">
+                        <p><a href="index.html">READ MORE</a></p>
+                    </div>
+                </article>
+               
+            </div>
+            <div class="side-bar">
+                <article class="profile">
+                    <img src="photo/author.jpg" alt="author">
+                    <h1>Name Name</h1>
+                    <p>プロフィールテキストテキストテキスト
+                        テキストテキストテキストテキストテキスト
+                    </p>
+                </article>
+                <div class="ranking">
+                    <h1>Ranking</h1>
+                    <article>
+                        <img src="photo/ranking1.jpg" alt="ranking1">
+                        <h2>タイトルテキストテキストテキストテキスト</h2>
+                    </article>
+                    <article>
+                        <img src="photo/ranking1.jpg" alt="ranking1">
+                        <h2>タイトルテキストテキストテキストテキスト</h2>
+                    </article>
+                    <article>
+                        <img src="photo/ranking1.jpg" alt="ranking1">
+                        <h2>タイトルテキストテキストテキストテキスト</h2>
+                    </article>
+
+                </div>
+                <div class="archive">
+                    <h1>Archive</h1>
+                    <dl>
+                        <dt>XXXX年xx月(xx)</dt>
+                        <dd></dd>
+                        <dt>XXXX年xx月(xx)</dt>
+                        <dd></dd>
+                        <dt>XXXX年xx月(xx)</dt>
+                        <dd></dd>
+                        <dt>XXXX年xx月(xx)</dt>
+                        <dd></dd>
+                        <dt>XXXX年xx月(xx)</dt>
+                        <dd></dd>
+                        <dt>XXXX年xx月(xx)</dt>
+                        <dd></dd>
+                        
+                    </dl>
+
+                </div>
+
+            </div>
+
+        </div>
     </main>
+    <footer>
+        <div class="footer">
+            <div class="About">
+                <h3>About</h3>
+                <p>テキストテキストテキストテキストテキスト</p>
+                <details>
+                    <summary><a href="#">プロフィール詳細</a></summary>
+                </details>
+                <details>
+                    <summary><a href="#">お仕事の依頼</a></summary>
+                </details>
+                <details>
+                    <summary><a href="#">お問い合わせ</a></summary>
+                </details>
+            </div>
+            <div class="menu">
+                <h3>Menu</h3>
+                <ul>
+                    <li><a href="#">NEW</a></li>
+                    <li><a href="#">CATEGORY</a></li>
+                    <li><a href="#">COLUMN</a></li>
+                    <li><a href="#">SERIES</a></li>
+                    <li><a href="#">Q&A</a></li>
+                </ul>
+            </div>
+            <div class="twitter">
+                <h3>Twitter</h3>
+                <a class="twitter-timeline" data-height="315" href="https://twitter.com/TwitterJP?ref_src=twsrc%5Etfw">Tweets by TwitterJP</a>
+                <script async src="https://platform.twitter.com/widgets.js"></script>
+            </div>
+            
+           
+        </div>
+        <div class="footer-bottom">
+            <p>@travel & Blog</p>
+        </div>
+    </footer>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="index.js"></script>
 </body>

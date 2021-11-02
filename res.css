@@ -1,0 +1,40 @@
+@media all and (max-width :670px){
+    .header-top{
+        margin:0 5%;
+    }
+    .header-menu ul{
+        margin: 0 5%;
+        width: 100%;
+    }
+    main{
+        margin:0 10%;
+    }
+    .pickup{
+        display: block;
+    }
+    .pickup-article{
+        width: 100%;
+    }
+    .main-top{
+        display: block;
+    }
+    .main-content{
+        width: 100%;
+    }
+    .side-bar{
+        width: 100%;
+        margin:0;
+    }
+    .footer{
+        display: block;
+        margin:0 5%;
+    }
+    .About,menu{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .twitter{
+        margin:50px 0;
+    }
+
+}
